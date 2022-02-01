@@ -35,8 +35,11 @@ weatherBtn.addEventListener('click', function() {
 
 
         })
-        .then.catch = (errr) => {
-            alert("Please! insert correct Capital Name");
-        }
+
+    .catch((error) => {
+        alert("Hey Stupid!! insert correct Capital Name");
+    });
+
+
 
 })
